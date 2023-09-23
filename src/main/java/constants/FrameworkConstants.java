@@ -4,7 +4,7 @@ public final class FrameworkConstants {
 
 
     private FrameworkConstants() {
-
+         System.out.println("hi");
     }
 
     private static final int EXPLICITWAIT = 20;
