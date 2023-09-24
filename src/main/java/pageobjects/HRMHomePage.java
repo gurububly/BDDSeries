@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class HRMHomePage extends BasePage {
 
     private final By homePageTitle = By.xpath("//h6[.='Dashboard']");
-    private final By logoutMenu = By.xpath("//p[.='Paul Collings']");
+    private final By logoutMenu = By.xpath("//span[@class='oxd-userdropdown-tab']/p");
     private final By logoutButton = By.xpath("//a[.='Logout']");
 
     public String getHomePageTitle() {

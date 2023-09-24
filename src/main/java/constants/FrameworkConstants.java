@@ -4,7 +4,7 @@ public final class FrameworkConstants {
 
 
     private FrameworkConstants() {
-         System.out.println("hi");
+
     }
 
     private static final int EXPLICITWAIT = 20;
@@ -17,5 +17,11 @@ public final class FrameworkConstants {
 
     public static String getConfigFilePath() {
         return CONFIGFILEPATH;
+    }
+
+    private static final String EXCELFILEPATH = System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx";
+
+    public static String getExcelFilePath() {
+        return EXCELFILEPATH;
     }
 }
